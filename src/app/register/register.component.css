@@ -3,3 +3,37 @@ h2, p {
     padding-right: 5em;
     text-align: justify;
 }
+
+.form-container {
+    display:grid;
+    grid-template-columns: 1 1 ;
+    height: auto;
+    padding-top: 10vh;
+    margin-top: 10vh;
+    padding-left:7.3vw;
+    padding-bottom:8vh;
+    margin-bottom:1em;
+    border-style:groove;
+    width: 35vw;
+    margin-left:7.3vw;
+    margin-right:7.3vw;
+    background-color: azure;
+    border-radius:0.5em;
+    box-sizing: content-box;
+    border-color:rgb(213, 164, 228);
+}
+input {
+    width: 18vw;
+    height:3.2vh;
+}
+
+.form-container button {
+    position:relative;
+    left: 25.2vw;
+    top: 3vh;
+    width:8vw;
+    height:6vh;
+    border-style:double;
+    border-radius: 10%;
+    border-color: rgb(177, 54, 214);
+}

@@ -1,1 +1,9 @@
-<p>homepage works!</p>
+<br>
+<div class="post-container" *ngFor="let item of posts">
+    <div>
+        <h3>{{item.titulo}}</h3>
+        <p>{{item.resumo}}</p>
+        <p>{{item.nomeAutor}}</p>
+    </div>
+    <img [src]="item.imgUrl" alt="{{item.imgUrl}}">
+</div>  

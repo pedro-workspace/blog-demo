@@ -1,0 +1,22 @@
+h2, h3, p {
+    padding-left:5em;
+    padding-right: 5em;
+    text-align: justify;
+    color: rgb(70, 70, 70);
+}
+
+p {
+    font-size:16px;
+}
+
+.post-container div {
+    background-color: rgba(240, 255, 255, 0.322);
+    margin: 3vw;
+    margin-right: 0vw;
+}
+
+.post-container{
+    display: grid;
+    grid-template-columns: 50vw auto;
+    image-rendering: pixelated;
+}
