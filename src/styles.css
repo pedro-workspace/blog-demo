@@ -2,3 +2,11 @@
 h1, h2 {
     color: rgb(88, 88, 88);
 }
+
+ h4, p {
+    font-size:16px;
+}
+
+label {
+    font-size:18px;
+}

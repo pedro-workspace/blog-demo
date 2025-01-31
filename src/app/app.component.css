@@ -1,5 +1,5 @@
 .container{
-    background-color: rgb(189, 189, 189);
+    background-color:rgb(241, 229, 241);
 }
 .navmenu {
     display: flex;
@@ -31,21 +31,23 @@ a {
 }
 
 .maincontent {
-    width:88vw;
+    width:89.45vw;
     height: auto;
     background-color: rgb(252, 246, 246);
     text-shadow: 1cap;
     margin-left: 8.3vw;
     position: relative;
-    top: 2vh;
-    left: .4vw;
+    top: 5vh;
+    left: 0.3vw;
     padding-bottom:100vh;
     border-radius: 0.3vw;
     font-size: 1.5vw;
     border-style:hidden;
-    border-width:0.1em;
+    border-width: 0.1em;
     border-bottom-style:none;
-    box-shadow: -0.2em 0.2em rgb(145, 42, 177);
+    box-shadow: -0.2em 0.2em rgb(124, 35, 151);
+    border-top-style:ridge;
+    border-right: ridge;
 }
 
 .container {
