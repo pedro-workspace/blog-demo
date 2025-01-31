@@ -9,14 +9,24 @@ p {
     font-size:16px;
 }
 
-.post-container div {
+.post-container{
+    position:relative;
+    display: grid;
+    grid-template-columns: 40vw auto;
+    left: 0vw;
     background-color: rgba(240, 255, 255, 0.322);
-    margin: 3vw;
-    margin-right: 0vw;
+    justify-content:space-evenly;
+    margin-left:5vw;
+    margin-top:5vh;
+    margin-right:5vw;
+    border-radius: 1vw;
 }
 
-.post-container{
-    display: grid;
-    grid-template-columns: 50vw auto;
-    image-rendering: pixelated;
+.post-container img {
+    position:relative;
+    right:3vw;
+    width: 34vw;
+    height: 55vh;
+    border-radius: 1vb;
+    align-self: center;
 }
