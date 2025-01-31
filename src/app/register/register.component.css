@@ -21,6 +21,7 @@ h2, p {
     border-radius:0.5em;
     box-sizing: content-box;
     border-color:rgb(213, 164, 228);
+    box-shadow: -0.5em 0.7em black;
 }
 input {
     width: 18vw;

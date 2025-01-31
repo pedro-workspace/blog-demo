@@ -1,3 +1,6 @@
+.container{
+    background-color: rgb(189, 189, 189);
+}
 .navmenu {
     display: flex;
     gap: 3em;
@@ -5,10 +8,10 @@
     flex-direction: column;
     justify-content:stretch;
     border-color:rgb(177, 54, 214);
-    border-right-style:groove;
+    border-left-style:groove;
     border-top-right-radius: 3vh;
     border-bottom-right-radius: 3vh;
-    border-right-width:4px;
+    border-left-width:4px;
     padding-bottom: 1em;
     padding-top:1em;
     margin-top:25vh;
@@ -28,18 +31,21 @@ a {
 }
 
 .maincontent {
-    width:90vw;
+    width:88vw;
     height: auto;
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(252, 246, 246);
     text-shadow: 1cap;
     margin-left: 8.3vw;
     position: relative;
+    top: 2vh;
+    left: .4vw;
     padding-bottom:100vh;
     border-radius: 0.3vw;
     font-size: 1.5vw;
-    border-style:groove;
-    border-width:1vw;
+    border-style:hidden;
+    border-width:0.1em;
     border-bottom-style:none;
+    box-shadow: -0.2em 0.2em rgb(145, 42, 177);
 }
 
 .container {
@@ -51,6 +57,7 @@ h1 {
     padding-left:2em;
     padding-top:0.5em;
     color: rgb(88, 88, 88);
+    font-style:oblique;
 }
 
 .login-button {
@@ -63,5 +70,5 @@ h1 {
     width:5vw;
     height:10vh;
     font-size:1.4vw;
-    box-shadow: 0.1em 0.2em .1em rgb(177, 54, 214);
+    box-shadow: -0.2em 0.15em .1em rgb(72, 24, 87);
 }
