@@ -6,7 +6,8 @@
   </nav>
   <div class="maincontent" >
     <h1>Pixel News</h1>
-    <button class="login-button"><a href="login" target="">Login</a></button>
+    <button class="login-button" (click)="showLogin()">Login</button>
+    <app-login [show]="this.show" *ngIf="show"></app-login>
     <router-outlet></router-outlet>
   </div>
 </div>

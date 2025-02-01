@@ -4,11 +4,11 @@ h1, h2 {
 }
 
  h4, p {
-    font-size:16px;
+    font-size:2.6vh;
 }
 
-label {
-    font-size:18px;
+label, button {
+    font-size:3vh;
 }
 
 .container{

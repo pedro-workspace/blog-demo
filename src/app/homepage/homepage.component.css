@@ -5,10 +5,6 @@ h2, h3, p {
     color: rgb(70, 70, 70);
 }
 
-p {
-    font-size:16px;
-}
-
 .post-container{
     position:relative;
     display: grid;

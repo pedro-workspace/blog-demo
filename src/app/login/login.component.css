@@ -1,11 +1,12 @@
 /* Usar cores do botão de login como base para as bordas do form de login */
 .container form{
     display:grid;
-    position:relative;
+    position:fixed;
     justify-content:center;
-    top: 8vh;
-    left: 25vw;
+    top: 25vh;
+    left: 35vw;
     border-style:outset;
+    border-radius:0.3em;
     border-top-left-radius:1em;
     border-bottom-right-radius: 2em;
     border-width: 0.2em;
@@ -18,7 +19,8 @@
     height: auto;
     background-color:rgb(255, 255, 255);
     gap: 0.2em;
-    box-shadow: -0.5em 1em black;
+    box-shadow: -0.5em 1em rgb(53, 53, 53);
+    z-index: 99;
 }
 .container form input {
     width: 20vw;
@@ -52,4 +54,6 @@
     width: 10vw;
     height:5vh;
     left: 19vw;
+    border-color:rgb(197, 159, 209);
+    border-radius: 0.3em;
 }

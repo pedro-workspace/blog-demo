@@ -7,6 +7,7 @@
     justify-content:stretch;
     border-color:rgb(177, 54, 214);
     border-left-style:groove;
+    border-radius: 0.3em;
     border-top-left-radius: 3vh;
     border-bottom-right-radius: 3vh;
     border-left-width:4px;
@@ -64,7 +65,7 @@ h1 {
     position:relative;
     bottom: 5.3vw;
     background-color:rgb(147, 140, 150);
-    border-radius: 0.1em;
+    border-radius: 0.3em;
     border-top-left-radius: 0.6em;
     border-color:rgb(197, 159, 209);
     margin-left:80vw;
@@ -73,4 +74,5 @@ h1 {
     height:7vh;
     font-size:1.4vw;
     box-shadow: -0.2em 0.15em .1em rgb(72, 24, 87);
+    color: white;
 }

@@ -1,6 +1,6 @@
 h2, p {
-    padding-left:8em;
-    padding-right: 8em;
+    padding-left:10em;
+    padding-right: 10em;
     text-align: justify;
 }
 
@@ -21,7 +21,9 @@ h2, p {
     border-radius:0.5em;
     box-sizing: content-box;
     border-color:rgb(213, 164, 228);
-    box-shadow: -0.5em 0.7em black;
+    box-shadow: -0.5em 0.7em rgb(53, 53, 53);
+    position:relative;
+    left: 5vw;
 }
 input {
     width: 18vw;
