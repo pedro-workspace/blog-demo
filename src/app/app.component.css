@@ -1,6 +1,4 @@
-.container{
-    background-color:rgb(241, 229, 241);
-}
+
 .navmenu {
     display: flex;
     gap: 3em;
@@ -9,7 +7,7 @@
     justify-content:stretch;
     border-color:rgb(177, 54, 214);
     border-left-style:groove;
-    border-top-right-radius: 3vh;
+    border-top-left-radius: 3vh;
     border-bottom-right-radius: 3vh;
     border-left-width:4px;
     padding-bottom: 1em;
@@ -64,13 +62,15 @@ h1 {
 
 .login-button {
     position:relative;
-    background-color:rgb(66, 61, 61);
-    border-top-left-radius: 1em;
-    border-top-right-radius: 1em;
+    bottom: 5.3vw;
+    background-color:rgb(147, 140, 150);
+    border-radius: 0.1em;
+    border-top-left-radius: 0.6em;
+    border-color:rgb(197, 159, 209);
     margin-left:80vw;
     margin-top: -20vh;
     width:5vw;
-    height:10vh;
+    height:7vh;
     font-size:1.4vw;
     box-shadow: -0.2em 0.15em .1em rgb(72, 24, 87);
 }

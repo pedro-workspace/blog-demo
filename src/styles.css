@@ -10,3 +10,8 @@ h1, h2 {
 label {
     font-size:18px;
 }
+
+.container{
+    background-color:rgb(241, 229, 241);
+    margin:-6px;
+}
