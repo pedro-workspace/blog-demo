@@ -4,18 +4,18 @@ const url:String = "img.jpeg"
 
 
 export const dataSample: Array<{titulo:String,resumo:String,
-    nomeAutor:String,bioAutor:String,infoAcademica:String, imgUrl:String}> = [
+    nomeAutor:String,bioAutor:String,infoAcademica:String, imgUrl:String, category:String}> = [
     {titulo:"Título", resumo:lorem, nomeAutor:"Author", 
-        bioAutor:"Informações sobre", infoAcademica:"Se houver", imgUrl:url},
+        bioAutor:"Informações sobre", infoAcademica:"Se houver", imgUrl:url, category:"categoria1"},
     {titulo:"Título", resumo:lorem, nomeAutor:"Author", 
-        bioAutor:"Informações sobre", infoAcademica:"Se houver", imgUrl:url},
+        bioAutor:"Informações sobre", infoAcademica:"Se houver", imgUrl:url,category:"categoria2"},
     {titulo:"Título", resumo:lorem, nomeAutor:"Author", 
-        bioAutor:"Informações sobre", infoAcademica:"Se houver", imgUrl:url},
+        bioAutor:"Informações sobre", infoAcademica:"Se houver", imgUrl:url, category:"categoria2"},
     {titulo:"Título", resumo:lorem, nomeAutor:"Author", 
-        bioAutor:"Informações sobre", infoAcademica:"Se houver", imgUrl:url},
+        bioAutor:"Informações sobre", infoAcademica:"Se houver", imgUrl:url, category:"categoria1"},
     {titulo:"Título", resumo:lorem, nomeAutor:"Author", 
-        bioAutor:"Informações sobre", infoAcademica:"Se houver", imgUrl:url},
+        bioAutor:"Informações sobre", infoAcademica:"Se houver", imgUrl:url, category:"categoria3"},
     {titulo:"Título", resumo:lorem, nomeAutor:"Author", 
-        bioAutor:"Informações sobre", infoAcademica:"Se houver", imgUrl:url},
+        bioAutor:"Informações sobre", infoAcademica:"Se houver", imgUrl:url, category:"categoria3"},
 ]
 

@@ -26,3 +26,32 @@ h2, h3, p {
     border-radius: 1vb;
     align-self: center;
 }
+
+div nav {
+    display:flex;
+    gap: 1em;
+    justify-content: center;
+}
+
+div nav a {
+    margin-top:5em;
+    border-style:groove;
+    border-bottom-color:white;
+    background-color:white;
+    border-top-left-radius:0.2em;
+    border-top-right-radius:0.2em;
+    font-size: 1em;
+    width:12vw;
+    text-align:center;
+    cursor:pointer;
+    user-select: none;
+}
+
+div nav a:hover{
+    background-color: rgb(37, 14, 43);
+    color:white;
+}
+
+div nav a:checked{
+    box-shadow: 1em 1em;
+}

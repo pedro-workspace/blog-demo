@@ -1,9 +1,17 @@
 <br>
-<div class="post-container" *ngFor="let item of posts">
-    <div>
-        <h3>{{item.titulo}}</h3>
-        <p>{{item.resumo}}</p>
-        <p>{{item.nomeAutor}}</p>
-    </div>
-    <img src="{{item.imgUrl}}">
-</div>  
+<div>
+    <nav>
+        <a (click)="allCategory()" >Ver todos</a>
+        <a (click)="changeCategory('1')" >Categoria 1</a>
+        <a (click)="changeCategory('2')" >Categoria 2</a>
+        <a (click)="changeCategory('3')" >Categoria 3</a>
+    </nav>
+    <div class="post-container" *ngFor="let item of filteredPosts">
+        <div>
+            <h3>{{item.titulo}}</h3>
+            <p>{{item.resumo}}</p>
+            <p>{{item.nomeAutor}}, {{item.category}}</p>
+        </div>
+        <img src="{{item.imgUrl}}">
+    </div>  
+</div>
